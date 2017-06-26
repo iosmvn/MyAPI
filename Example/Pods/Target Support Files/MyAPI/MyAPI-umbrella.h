@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BaseObj.h"
 
 FOUNDATION_EXPORT double MyAPIVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyAPIVersionString[];

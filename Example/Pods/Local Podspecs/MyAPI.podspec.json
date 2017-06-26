@@ -1,0 +1,22 @@
+{
+  "name": "MyAPI",
+  "version": "0.1.0",
+  "summary": "A short description of MyAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sundl1988@163.com/MyAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sundl1988@163.com": "sundanlong@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sundl1988@163.com/MyAPI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyAPI/Classes/**/*"
+}

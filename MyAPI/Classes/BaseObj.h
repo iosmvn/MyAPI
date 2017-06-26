@@ -6,8 +6,12 @@
 //
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BaseObj : NSObject
 
+    
+- (NSString *)whoisI;
+- (void)setupIV2:(UIView *)view;
+    
 @end

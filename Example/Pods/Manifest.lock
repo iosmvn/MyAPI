@@ -9,7 +9,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MyAPI (0.1.0)
+  - MyAPI (0.2.0)
   - Specta (1.0.6)
 
 DEPENDENCIES:
@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  MyAPI: 47a77d7a0470335f0d1f470bd3030b852f121bc9
+  MyAPI: 35fac3cabff01d8f81171afaa5f2f9d9da199d08
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
 PODFILE CHECKSUM: ec49e2e16e91e390369130c882d4ec081eb30f61

@@ -1,6 +1,6 @@
 {
   "name": "MyAPI",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "MyAPI for static Libs.",
   "description": "使得我们提前执行设定的script，podspec文使得我们提前执行设定的script，podspec文件使得我们提前执行设定的script，podspec文件使得我们提前执行设定的script，podspec文件改为：",
   "homepage": "https://github.com/iosmvn",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/iosmvn/MyAPI.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

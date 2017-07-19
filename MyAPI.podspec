@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyAPI'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'MyAPI for static Libs.'
 
 # This description is used to generate tags and improve search results.
@@ -45,6 +45,7 @@ Pod::Spec.new do |s|
 
     s.public_header_files = 'MyAPI/Classes/**/*.h'
     # s.frameworks = 'UIKit', 'MapKit'
+    s.frameworks = "UIKit", "SystemConfiguration"
     s.dependency 'AFNetworking', '~> 3.1.0'
   # end
 end

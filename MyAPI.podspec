@@ -31,11 +31,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  if true then
+  if false then
+    puts '发布静态包'
     # s.source = { :path => '.' }
     s.source           = { :git => 'https://github.com/iosmvn/MyAPILib.git', :tag => s.version.to_s }
     s.ios.vendored_frameworks   = "MyAPI-#{s.version.to_s}ios/MyAPI.framework"
   else
+    puts '发布源码'
     s.source_files = 'MyAPI/Classes/**/*'
     
     s.resource_bundles = {

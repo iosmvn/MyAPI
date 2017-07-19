@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyAPI'
   # s.version          = '0.1.7'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'MyAPI for static Libs.'
 
 # This description is used to generate tags and improve search results.

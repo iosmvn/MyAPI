@@ -8,8 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyAPI'
-  # s.version          = '0.1.7'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = 'MyAPI for static Libs.'
 
 # This description is used to generate tags and improve search results.
@@ -31,13 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  if false then
-    puts '发布静态包'
+  if true then
+    puts '****** 发布静态包 ******'
     # s.source = { :path => '.' }
     s.source           = { :git => 'https://github.com/iosmvn/MyAPILib.git', :tag => s.version.to_s }
     s.ios.vendored_frameworks   = "MyAPI-#{s.version.to_s}ios/MyAPI.framework"
   else
-    puts '发布源码'
+    puts '****** 发布源码 ******'
     s.source_files = 'MyAPI/Classes/**/*'
     
     s.resource_bundles = {
